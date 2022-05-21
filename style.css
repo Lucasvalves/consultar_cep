@@ -1,0 +1,44 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;   
+}
+body{
+    text-align: center;
+}
+#app{  
+    margin-top: 40px;
+    display: inline-block;     
+}
+h1{
+    
+    background: rgb(76, 30, 182);
+    padding: 40px;
+    color: azure;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#endereco{
+    display: flex;
+    flex-direction: column;  
+}
+input{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+button{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-weight: 800;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+button:hover{
+    background-color:rgba(5, 5, 5, 0.884);
+}
